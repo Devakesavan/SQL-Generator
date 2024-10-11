@@ -4,7 +4,7 @@ import google.generativeai as genai
 import sqlite3
 
 # Configure Google Generative AI
-GOOGLE_API_KEY = "ADD YOUR GEMINI API KEY"
+GOOGLE_API_KEY = "AIzaSyBlNLsGk1lwGiPpo5Gn0Pwo9XcNW9tJ_7M"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
